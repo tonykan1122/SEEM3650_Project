@@ -1,0 +1,66 @@
+.
+├── DataPreprocessing
+│   ├── data_cleaning_python
+│   │   ├── cpi.csv
+│   │   ├── crime_data_clean.py
+│   │   ├── date.csv
+│   │   ├── date_data_clean.py
+│   │   ├── event.csv
+│   │   ├── exchangerate_data_clean.py
+│   │   ├── gdp.csv
+│   │   ├── gdp_data_clean.py
+│   │   ├── humidity.csv
+│   │   ├── humidity_data_clean.py
+│   │   ├── oil.csv
+│   │   ├── oil_data_clean.py
+│   │   ├── oil_month.csv
+│   │   ├── rainfall.csv
+│   │   ├── rainfall_data_clean.py
+│   │   ├── realy.csv
+│   │   ├── removal_covid_period.py
+│   │   ├── temperature.csv
+│   │   ├── temperture_data_clean.py
+│   │   ├── typhoon.csv
+│   │   ├── typhoon_data_clean.py
+│   │   └── y.csv
+│   ├── features_csv
+│   │   ├── processed_cpi_data.csv
+│   │   ├── processed_crime_data.csv
+│   │   ├── processed_days_data.csv
+│   │   ├── processed_event_data.csv
+│   │   ├── processed_exchangerate_data.csv
+│   │   ├── processed_exchangerate_data.xlsx
+│   │   ├── processed_gdp_data.csv
+│   │   ├── processed_humidity_data.csv
+│   │   ├── processed_oil_data.csv
+│   │   ├── processed_rainfall_data.csv
+│   │   ├── processed_temperature_data.csv
+│   │   └── processed_typhoon_data.csv
+│   ├── readyset_data_csv
+│   │   ├── dataclean_v1.0.csv
+│   │   ├── dataclean_v2.0.csv
+│   │   ├── test.csv
+│   │   └── train.csv
+│   └── y_csv
+│       ├── statistics_on_daily_passenger_traffic.csv
+│       └── statistics_passenger_traffic_festival_periods.csv
+├── README.md
+├── figures
+│   ├── 2017_2019_Travellers.png
+│   ├── 2023_2025_Travellers.png
+│   ├── Performance_of_Four_Models.png
+│   ├── feature_importances.png
+│   ├── mae_comparison.png
+│   ├── r2_comparison.png
+│   ├── rmse_comparison.png
+│   └── top_features_correlation.png
+├── folder_structure.txt
+└── predict_model
+    ├── best_model.pkl
+    ├── find model.py
+    ├── predict.csv
+    ├── predict.py
+    ├── test.csv
+    └── train.csv
+
+8 directories, 56 files
