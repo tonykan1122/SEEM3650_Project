@@ -189,14 +189,36 @@ For more details, visit the [GitHub repository](https://github.com/tonykan1122/S
 
 | **Attribute**            | **Source**                                                                                                   |
 |--------------------------|--------------------------------------------------------------------------------------------------------------|
-| event_protest            | [TW Reporter](https://www.twreporter.org/a/hong-kong-extradition-law-events)                               |
+| event_protest            | [TW Reporter](https://www.twreporter.org/a/hong-kong-extradition-law-events)                                 |
 | days_to_event_marathon   | [Wikipedia](https://zh.wikipedia.org/wiki/%E6%B8%A3%E6%89%93%E9%A6%99%E6%B8%AF%E9%A6%AC%E6%8B%89%E6%9D%BE) |
 | days_to_event_creamfields| [Yolo Lab](https://yololab.net/2019/10/31/creamfields-hk/), [Klook](https://www.klook.com/zh-HK/event-detail/101011362-2023-creamfields-hongkong/), [Instagram](https://www.instagram.com/creamfieldshk/p/C5ktFguyBzu/?img_index=1) |
 | days_to_event_complexcon | [InvestHK](https://www.investhk.gov.hk/zh-hk/events/complexcon-hong-kong-2024/), [Asia World-Expo](https://www.asiaworld-expo.com/zh-tc/whats-on/upcoming-events/events/complexcon-hong-kong-2025-\(1st-option-17-24-3,-2nd/) |
 | days_to_event_hksevens   | [HK Sevens 2025](https://hksevens.com/assets/uploads/uploads/images/HK7s-2025_Full-Schedule_V3.pdf), [HK Sevens 2024](https://hksevens.com/assets/uploads/uploads/images/240306_hk7s_2024_schedule-v5.3A4.pdf), [TD](https://www.td.gov.hk/filemanager/en/content_13/Hong%20Kong%20Sevens%202023%20Full_Chi.pdf), [SCMP](https://multimedia.scmp.com/widgets/sport/rugby-schedule-2022/index.html), [Wikipedia](https://en.wikipedia.org/wiki/2019_Hong_Kong_Sevens) |
 | days_to_event_clockenflap| [Wikipedia](https://zh.wikipedia.org/wiki/Clockenflap), [Clockenflap](https://www.clockenflap.com/)         |
-| max_signal               | [HKO](https://www.hko.gov.hk/en/wxinfo/climat/warndb/warndb1.shtml)                                       |
+| max_signal               | [HKO](https://www.hko.gov.hk/en/wxinfo/climat/warndb/warndb1.shtml)                                         |
 | event_marathon           | [Wikipedia](https://zh.wikipedia.org/wiki/%E6%B8%A3%E6%89%93%E9%A6%99%E6%B8%AF%E9%A6%AC%E6%8B%89%E6%9D%BE) |
 | event_creamfields        | [Yolo Lab](https://yololab.net/2019/10/31/creamfields-hk/), [Klook](https://www.klook.com/zh-HK/event-detail/101011362-2023-creamfields-hongkong/), [Instagram](https://www.instagram.com/creamfieldshk/p/C5ktFguyBzu/?img_index=1) |
 | event_complexcon         | [InvestHK](https://www.investhk.gov.hk/zh-hk/events/complexcon-hong-kong-2024/), [Asia World-Expo](https://www.asiaworld-expo.com/zh-tc/whats-on/upcoming-events/events/complexcon-hong-kong-2025-\(1st-option-17-24-3,-2nd/) |
-| event_hksevens           | [HK Sevens 2025](https://hksevens.com/assets/uploads/uploads/images/HK7s-2025_Full-Schedule_V3.pdf), [HK Sevens 2024](https://hksevens.com/assets/uploads/uploads/images/240306_hk7s_2024_schedule-v5.3A4.pdf), [TD](https://www.td.gov.hk/filemanager/en/content_13/Hong%20Kong%20Sevens%202023%20Full_Chi.pdf), [SCMP](https://multimedia.scmp.com/widgets/sport/rugby-schedule-2022/index.html
+| event_hksevens           | [HK Sevens 2025](https://hksevens.com/assets/uploads/uploads/images/HK7s-2025_Full-Schedule_V3.pdf), [HK Sevens 2024](https://hksevens.com/assets/uploads/uploads/images/240306_hk7s_2024_schedule-v5.3A4.pdf), [TD](https://www.td.gov.hk/filemanager/en/content_13/Hong%20Kong%20Sevens%202023%20Full_Chi.pdf), [SCMP](https://multimedia.scmp.com/widgets/sport/rugby-schedule-2022/index.html), [Wikipedia](https://en.wikipedia.org/wiki/2019_Hong_Kong_Sevens) |
+| event_clockenflap        | [Wikipedia](https://zh.wikipedia.org/wiki/Clockenflap), [Clockenflap](https://www.clockenflap.com/)         |
+| typhoon_morning          | [HKO](https://www.hko.gov.hk/en/wxinfo/climat/warndb/warndb1.shtml)                                         |
+| typhoon_present          | [HKO](https://www.hko.gov.hk/en/wxinfo/climat/warndb/warndb1.shtml)                                         |
+| typhoon_high_signal      | [HKO](https://www.hko.gov.hk/en/wxinfo/climat/warndb/warndb1.shtml)                                         |
+| typhoon_duration_hours   | [HKO](https://www.hko.gov.hk/en/wxinfo/climat/warndb/warndb1.shtml)                                         |
+| temperature              | [Data.gov.hk](https://data.gov.hk/en-data/dataset/hk-hko-rss-daily-temperature-info-hko), [HKO April 2025](https://www.hko.gov.hk/en/cis/dailyExtract.htm?y=2025&m=04) |
+| rainfall                 | [Data.gov.hk](https://data.gov.hk/en-data/dataset/hk-hko-rss-daily-total-rainfall), [HKO April 2025](https://www.hko.gov.hk/en/cis/dailyExtract.htm?y=2025&m=04) |
+| humidity                 | [Data.gov.hk](https://data.gov.hk/en-data/dataset/hk-hko-rss-daily-mean-relative-humidity), [HKO April 2025](https://www.hko.gov.hk/en/cis/dailyExtract.htm?y=2025&m=04) |
+| crime_overall            | [HK Police](https://www.police.gov.hk/ppp_en/09_statistics/csd.html)                                        |
+| oil_price                | [EIA](https://www.eia.gov/dnav/pet/hist/LeafHandler.ashx?n=pet&s=f000000__3&f=m), [Business Insider](https://markets.businessinsider.com/commodities/oil-price?type=wti), [Statista](https://www.statista.com/statistics/326017/weekly-crude-oil-prices/) |
+| cpi_composite            | [CSD Department CPI](https://www.censtatd.gov.hk/en/web_table.html?id=510-60001), [HK Economy 2025](https://www.hkeconomy.gov.hk/en/situation/development/index.htm) |
+| cpi_a                    | [CSD Department CPI](https://www.censtatd.gov.hk/en/web_table.html?id=510-60001), [HK Economy 2025](https://www.hkeconomy.gov.hk/en/situation/development/index.htm) |
+| cpi_b                    | [CSD Department CPI](https://www.censtatd.gov.hk/en/web_table.html?id=510-60001), [HK Economy 2025](https://www.hkeconomy.gov.hk/en/situation/development/index.htm) |
+| cpi_c                    | [CSD Department CPI](https://www.censtatd.gov.hk/en/web_table.html?id=510-60001), [HK Economy 2025](https://www.hkeconomy.gov.hk/en/situation/development/index.htm) |
+| gdp                      | [CSD Department GDP and GDP Deflator](https://www.censtatd.gov.hk/en/web_table.html?id=31), [HK Economy 2025](https://www.hkeconomy.gov.hk/en/situation/development/index.htm) |
+| gdp_deflator_index       | [CSD Department GDP and GDP Deflator](https://www.censtatd.gov.hk/en/web_table.html?id=31), [HK Economy 2025](https://www.hkeconomy.gov.hk/en/situation/development/index.htm) |
+| exchange_mainland        | [Exchange Rates Mainland](https://www.exchangerates.org.uk/CNY-HKD-spot-exchange-rates-history-2019.html)    |
+| exchange_taiwan          | [Exchange Rates Taiwan](https://www.exchangerates.org.uk/TWD-HKD-spot-exchange-rates-history-2019.html)      |
+| exchange_macausar        | [Exchange Rates Macau](https://www.exchangerates.org.uk/MOP-HKD-spot-exchange-rates-history-2019.html)       |
+| exchange_southkorea      | [Exchange Rates South Korea](https://www.exchangerates.org.uk/KRW-HKD-spot-exchange-rates-history-2019.html) |
+| exchange_usa             | [Exchange Rates USA](https://www.exchangerates.org.uk/USD-HKD-spot-exchange-rates-history-2019.html)         |
+| y (arrival_travellers)   | [Data.gov.hk: Daily Passenger Traffic after 2022](https://data.gov.hk/en-data/dataset/hk-immd-set5-statistics-daily-passenger-traffic), [Data.gov.hk: Daily Passenger Traffic before 2021](https://data.gov.hk/en-data/dataset/hk-immd-set5-statistics-daily-passenger-traffic) |
