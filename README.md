@@ -7,9 +7,11 @@ This project utilizes machine learning, specifically Random Forest regression, t
 Tourism in Hong Kong has experienced significant fluctuations over the past decade, particularly around the COVID-19 pandemic. Understanding these trends is crucial for developing strategies to revitalize the industry.
 
 ### Traveler Numbers Pre-Pandemic (2017-2019)
+![2017-2019 Traveler Numbers](figures/2017_2019_Travellers.png)  
 This line graph tracks the number of arrivals from Macau SAR, Mainland, South Korea, Taiwan, and USA from 2017 to 2020, showing a significant decline towards 2020, particularly for Mainland and South Korea. The data highlights the impact of pre-pandemic events, such as protests in 2019, and the onset of the global health crisis.
 
 ### Traveler Numbers Post-Pandemic (2023-2025)
+![2023-2025 Traveler Numbers](figures/2023_2025_Travellers.png)  
 This line graph projects the number of arrivals from the same regions from December 2022 to December 2024, indicating a recovery with increasing trends, especially for the Mainland. The upward trajectory suggests a rebound in tourism as travel restrictions eased and confidence returned.
 
 ## Project Overview
@@ -106,19 +108,13 @@ To use this repository:
 
 For a step-by-step guide, watch the [YouTube tutorial](https://www.youtube.com/watch?v=your-video-id).
 
-## Figures
+## Analysis
 
-The `figures/` directory contains the following visualizations:
+The `figures/` directory contains visualizations that support the analysis of the predictive model:
 
 ### Model Performance Comparison
 ![Model Performance](figures/Performance_of_Four_Models.png)  
 This bar chart compares the performance of four regression models—Lasso, Linear, Random Forest, and Ridge—using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared Score (R² Score) on a logarithmic scale. Random Forest shows superior performance with lower errors and a higher R².
-
-### Traveler Numbers Pre-Pandemic (2017-2019)
-![2017-2019 Traveler Numbers](figures/2017_2019_Travellers.png)  
-
-### Traveler Numbers Post-Pandemic (2023-2025)
-![2023-2025 Traveler Numbers](figures/2023_2025_Travellers.png)  
 
 ### Feature Importances
 ![Feature Importances](figures/feature_importances.png)  
