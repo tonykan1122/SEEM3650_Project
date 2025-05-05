@@ -62,8 +62,9 @@
 │   ├── predict.py
 │   ├── test.csv
 │   └── train.csv
-└── the_result
-    ├── best_model.pkl
-    └── predict.csv
+├── the_result
+│   ├── best_model.pkl
+│   └── predict.csv
+└── thumbnail.jpg
 
-9 directories, 58 files
+9 directories, 59 files
