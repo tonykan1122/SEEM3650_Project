@@ -2,6 +2,16 @@
 
 This project utilizes machine learning, specifically Random Forest regression, to identify key factors influencing tourist visits to Hong Kong. By analyzing economic, environmental, and social indicators, we aim to provide actionable insights for policymakers to boost tourism, which has declined in recent years.
 
+## Background
+
+Tourism in Hong Kong has experienced significant fluctuations over the past decade, particularly around the COVID-19 pandemic. Understanding these trends is crucial for developing strategies to revitalize the industry.
+
+### Traveler Numbers Pre-Pandemic (2017-2019)
+This line graph tracks the number of arrivals from Macau SAR, Mainland, South Korea, Taiwan, and USA from 2017 to 2020, showing a significant decline towards 2020, particularly for Mainland and South Korea. The data highlights the impact of pre-pandemic events, such as protests in 2019, and the onset of the global health crisis.
+
+### Traveler Numbers Post-Pandemic (2023-2025)
+This line graph projects the number of arrivals from the same regions from December 2022 to December 2024, indicating a recovery with increasing trends, especially for the Mainland. The upward trajectory suggests a rebound in tourism as travel restrictions eased and confidence returned.
+
 ## Project Overview
 
 The study examines factors affecting daily visitor arrivals to Hong Kong from 2019 to 2025, excluding the COVID-19 period (2020-2022). Using a Random Forest model, we predict arrivals based on features like economic conditions, weather, holidays, and crime rates. Key findings indicate that holidays in source countries, crime rates, and weather significantly influence tourism, suggesting policies focused on safety and holiday promotions could enhance visitor numbers.
@@ -49,12 +59,6 @@ The Random Forest model was selected for its strong performance. Key insights in
   - Standard Deviation: 5.8%
   - Most errors near 0%, indicating low bias.
 
-### Visualizations
-
-- **Feature Importances**: Identifies top influential features.
-- **Prediction Error Distribution**: Shows small error concentration.
-- **Correlation Matrix**: Highlights feature-arrival relationships.
-
 ## Repository Structure
 
 The repository is organized as follows:
@@ -101,6 +105,39 @@ To use this repository:
    - Saves predictions to `the_result/predict.csv`.
 
 For a step-by-step guide, watch the [YouTube tutorial](https://www.youtube.com/watch?v=your-video-id).
+
+## Figures
+
+The `figures/` directory contains the following visualizations:
+
+### Model Performance Comparison
+![Model Performance](figures/Performance_of_Four_Models.png)  
+This bar chart compares the performance of four regression models—Lasso, Linear, Random Forest, and Ridge—using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared Score (R² Score) on a logarithmic scale. Random Forest shows superior performance with lower errors and a higher R².
+
+### Traveler Numbers Pre-Pandemic (2017-2019)
+![2017-2019 Traveler Numbers](figures/2017_2019_Travellers.png)  
+
+### Traveler Numbers Post-Pandemic (2023-2025)
+![2023-2025 Traveler Numbers](figures/2023_2025_Travellers.png)  
+
+### Feature Importances
+![Feature Importances](figures/feature_importances.png)  
+This plot identifies the most influential features in the Random Forest model, such as holidays, crime rates, and weather conditions.
+
+### Performance Metrics
+- **MAE Comparison**  
+  ![MAE Comparison](figures/mae_comparison.png)  
+  Comparison of Mean Absolute Error across different models.
+- **R² Comparison**  
+  ![R² Comparison](figures/r2_comparison.png)  
+  Comparison of R-squared scores across different models.
+- **RMSE Comparison**  
+  ![RMSE Comparison](figures/rmse_comparison.png)  
+  Comparison of Root Mean Squared Error across different models.
+
+### Top Features Correlation
+![Top Features Correlation](figures/top_features_correlation.png)  
+Correlation matrix highlighting the relationship between top features and visitor arrivals, with 'Day of week = Saturday' showing the highest correlation.
 
 ## Pros, Cons, and Potential Improvements
 
