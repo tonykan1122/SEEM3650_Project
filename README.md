@@ -179,8 +179,8 @@ Over-reliance on the model without critical evaluation could lead to economic ri
 
 ## Contributors
 
-- Fung Sai Wa (1155194766)
-- Kan Man Chung (1155181978)
+- Fung Sai Wa (1155194766) [skiraware](https://github.com/skiraware)
+- Kan Man Chung (1155181978) [tonykan1122](https://github.com/tonykan1122)
 - Leung Shing Yip (1155193525)
 
 For more details, visit the [GitHub repository](https://github.com/tonykan1122/SEEM3650_Project.git).
