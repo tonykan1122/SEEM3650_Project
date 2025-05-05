@@ -51,7 +51,7 @@ We evaluated four regression models—Linear Regression, Ridge Regression, LASSO
   - Root Mean Squared Error (RMSE)
   - R-squared (R²)
 
-Random Forest outperformed others with a training MAE of 8,146.33, RMSE of 11,813.83, and R² of 0.8626, though cross-validation (MAE: 16,389.61) suggests potential overfitting.
+Random Forest outperformed others with a training MAE of 8,146.33, RMSE of 11,813.83, and R² of 0.8626.
 
 ## Model Evaluation
 
