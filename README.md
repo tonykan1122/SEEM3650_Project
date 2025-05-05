@@ -1,3 +1,5 @@
+![Analyzing Factors Influencing Traveler Visits to Hong Kong](figures/title.png)
+
 # Analyzing Factors Influencing Traveler Visits to Hong Kong
 
 This project utilizes machine learning, specifically Random Forest regression, to identify key factors influencing tourist visits to Hong Kong. By analyzing economic, environmental, and social indicators, we aim to provide actionable insights for policymakers to boost tourism, which has declined in recent years.
@@ -51,6 +53,20 @@ We evaluated four regression models—Linear Regression, Ridge Regression, LASSO
 
 Random Forest outperformed others with a training MAE of 8,146.33, RMSE of 11,813.83, and R² of 0.8626, though cross-validation (MAE: 16,389.61) suggests potential overfitting.
 
+## Model Evaluation
+
+### Model Performance Comparison
+![Model Performance Comparison](figures/Performance_of_Four_Models.png)  
+This bar chart compares the performance of four regression models—Lasso, Linear, Random Forest, and Ridge—using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared Score (R² Score) on a logarithmic scale. Random Forest shows superior performance with lower errors and a higher R².
+
+### Feature Importances
+![Feature Importances](figures/feature_importances.png)  
+This plot identifies the most influential features in the Random Forest model, such as holidays, crime rates, and weather conditions.
+
+### Top Features Correlation
+![Top Features Correlation](figures/top_features_correlation.png)  
+Correlation matrix highlighting the relationship between top features and visitor arrivals, with 'Day of week = Saturday' showing the highest correlation.
+
 ## Results
 
 The Random Forest model was selected for its strong performance. Key insights include:
@@ -60,6 +76,23 @@ The Random Forest model was selected for its strong performance. Key insights in
   - Mean Percentage Difference: 6.4%
   - Standard Deviation: 5.8%
   - Most errors near 0%, indicating low bias.
+
+In addition to the above, the following table provides a detailed comparison of the actual and predicted values:
+
+| Metric  | y          | Predicted y | Difference  | Percentage Diff (%) |
+|---------|------------|-------------|-------------|---------------------|
+| min     | 90747      | 97597.5928  | 164.0982308 | 0.14438701          |
+| max     | 221472     | 190419.982  | 45936.14302 | 42.98239297         |
+| mean    | 132899.067 | 132769.724  | 8621.14965  | 6.401448664         |
+| sd      | 29130.0372 | 23596.0478  | 8141.688018 | 5.771243395         |
+| Median  | 125667     | 124219.259  | 6632.00191  | 4.694425098         |
+
+**Table 1: Performance of the Model Prediction**
+
+Furthermore, the distribution of prediction errors is illustrated in the histogram below:
+
+![Distribution of Model Errors](figures/dist_model_errors.png)  
+The histogram shows the distribution of the difference between the predicted and actual y. It is found that the difference is most significant in the range of -30% to -5%, and the difference is concentrated in the range close to 0. As a result, the bias of the predicted data is low, and most of the data is reasonable. Only a small portion of the predicted data is an outlier. This prediction model is closer to the expected ideal situation of a 5% difference.
 
 ## Repository Structure
 
@@ -107,34 +140,7 @@ To use this repository:
    - Saves predictions to `the_result/predict.csv`.
 
 For a step-by-step guide, watch the [YouTube tutorial](https://youtu.be/RJ8WPKeVXF8) or click the image below to watch the tutorial video!
-[![Watch the Tutorial](thumbnail.jpg)](https://youtu.be/RJ8WPKeVXF8)  
-
-## Analysis
-
-The `figures/` directory contains visualizations that support the analysis of the predictive model:
-
-### Model Performance Comparison
-![Model Performance](figures/Performance_of_Four_Models.png)  
-This bar chart compares the performance of four regression models—Lasso, Linear, Random Forest, and Ridge—using Mean Absolute Error (MAE), Root Mean Squared Error (RMSE), and R-squared Score (R² Score) on a logarithmic scale. Random Forest shows superior performance with lower errors and a higher R².
-
-### Feature Importances
-![Feature Importances](figures/feature_importances.png)  
-This plot identifies the most influential features in the Random Forest model, such as holidays, crime rates, and weather conditions.
-
-### Performance Metrics
-- **MAE Comparison**  
-  ![MAE Comparison](figures/mae_comparison.png)  
-  Comparison of Mean Absolute Error across different models.
-- **R² Comparison**  
-  ![R² Comparison](figures/r2_comparison.png)  
-  Comparison of R-squared scores across different models.
-- **RMSE Comparison**  
-  ![RMSE Comparison](figures/rmse_comparison.png)  
-  Comparison of Root Mean Squared Error across different models.
-
-### Top Features Correlation
-![Top Features Correlation](figures/top_features_correlation.png)  
-Correlation matrix highlighting the relationship between top features and visitor arrivals, with 'Day of week = Saturday' showing the highest correlation.
+[![Watch the Tutorial](figures/thumbnail.jpg)](https://youtu.be/RJ8WPKeVXF8)  
 
 ## Pros, Cons, and Potential Improvements
 
