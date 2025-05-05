@@ -106,7 +106,7 @@ To use this repository:
    ```
    - Saves predictions to `the_result/predict.csv`.
 
-For a step-by-step guide, watch the [YouTube tutorial](https://www.youtube.com/watch?v=your-video-id).
+For a step-by-step guide, watch the [YouTube tutorial](https://youtu.be/RJ8WPKeVXF8).
 
 ## Analysis
 
