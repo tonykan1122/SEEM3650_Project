@@ -91,7 +91,7 @@ In addition to the above, the following table provides a detailed comparison of 
 
 Furthermore, the distribution of prediction errors is illustrated in the histogram below:
 
-![Distribution of Model Errors](figures/dist_model_errors.png)  
+![Distribution of Model Errors](figures/dist_model_errors.jpeg)  
 The histogram shows the distribution of the difference between the predicted and actual y. It is found that the difference is most significant in the range of -30% to -5%, and the difference is concentrated in the range close to 0. As a result, the bias of the predicted data is low, and most of the data is reasonable. Only a small portion of the predicted data is an outlier. This prediction model is closer to the expected ideal situation of a 5% difference.
 
 ## Repository Structure
